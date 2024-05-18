@@ -1,0 +1,84 @@
+*{
+    box-sizing: border-box;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.wrapper{
+    max-width: 1000px;
+    /* margin-inline: auto; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+.box1{
+    background-color: rgb(100, 16, 178);
+}
+.box{
+
+    width: 335px;
+    height: 200px;
+    min-width: 300px;
+    background-color: #8e44ad;
+    margin: 10px;
+    font-family: 'Courier New', Courier, monospace;
+    color: #ffffff;
+    border-radius: 10px;
+    padding-left: 18px;
+    
+
+}
+
+.box2{
+    background-color: rgb(45, 45, 130);
+}
+
+.box3{
+    background-color: rgb(212, 77, 122);
+}
+
+.box4{
+
+    background-color: rgb(113, 231, 113);
+}
+.number{
+
+    font-weight: 200;
+    font-size: 25px;
+    margin-top: -5px;
+    
+}
+
+.chip{
+    width: 56px;
+   
+    padding-top: 35px;
+    margin-left: -5px;
+}
+.name{
+    font-weight: bold;
+    font-size: 20px;
+    padding-bottom: 15px;
+    font-family: monospace;
+}
+
+.visa{
+    width: 100px;
+    height: 35px;
+    margin-right: 20px;
+    margin-top: -10px;
+}
+
+.flex{
+    display: flex;
+    justify-content: space-between;
+}
+.value{
+    font-size: 10px;
+    margin-right: 58px;
+}
+.date{
+    font-family: 'Tahoma', sans-serif;
+}
